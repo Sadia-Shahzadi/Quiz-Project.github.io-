@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="box">
+        <h1>Quiz</h1>
+        <h2 id="quesbox">Choose HTML element for the largest heading:</h2>
+        <div class="options">
+          <input
+            id="option1"
+            type="radio"
+            name="option"
+            value="a"
+            class="inputoption"
+          />
+          <label for="option1">h3</label>
+        </div>
+        <div class="options">
+          <input
+            id="option2"
+            type="radio"
+            name="option"
+            value="b"
+            class="inputoption"
+          />
+          <label for="option2">h2</label>
+        </div>
+        <div class="options">
+          <input
+            id="option3"
+            type="radio"
+            name="option"
+            value="c"
+            class="inputoption"
+          />
+          <label for="option3">h1</label>
+        </div>
+        <div class="options">
+          <input
+            id="option4"
+            type="radio"
+            name="option"
+            value="d"
+            class="inputoption"
+          />
+          <label for="option4">h6</label>
+        </div>
+        <button class="btn" onclick="submitQuiz()">Next</button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
